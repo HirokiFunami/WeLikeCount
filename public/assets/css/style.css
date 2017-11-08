@@ -2,3 +2,72 @@
 	margin: 0;
 	padding: 0;
 }
+
+body{
+
+}
+
+#signin{
+	background-color: black;
+	background-attachment: fixed;
+	background-position: center;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-image: url(/assets/images/signup.jpg);
+}
+
+.container{
+	width:90%;
+	padding:0 5%;
+}
+
+.content{
+	margin:auto;
+	width:320px;
+}
+
+.content.sign{
+	padding-top:200px;	
+}
+
+.copy{
+	font-size: 12px;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	color:white;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.logo-wrapper{
+	width:100%;
+	margin-bottom: 40px;
+}
+
+.logo-wrapper img{
+	width:150px;
+	display:block;
+	margin: 0 auto;
+}
+
+.sign-form{
+	width:100%;
+	
+}
+
+input{
+	display: block;
+	width:300px;
+	margin:0 auto 12px;
+	border:black 1px solid;
+	border-radius: 3px;
+	padding:10px 8px;
+	background-color:rgba(255,255,255,0.2);
+}
+
+input[type="submit"]{
+	color:white;
+	padding:10px 40px;
+	background-color:rgba(0,0,0,0.7);
+}
+

@@ -3,7 +3,15 @@ Bundler.require
 require 'sinatra/reloader' if development?
 
 get '/' do
-	erb :index
+	erb :signin
+end
+
+get '/signin' do
+	erb :signin
+end
+
+get '/signup' do
+	erb :signup
 end
 
 # post '/new' do
